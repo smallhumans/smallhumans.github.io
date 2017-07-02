@@ -1,9 +1,211 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+<style>
+@font-face {
+  font-family: "Shamalow";
+  src: url('Vanilla.ttf');
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+body {
+  background-color: black;
+  color:    #ADFF2F;
+}
+#listemenu {
+  height:auto;
+  overflow: hidden;
+  top:0px;
+  left:0px;
+  width: 80%; 
+  margin:80px auto; 
+  position: relative;
+  text-align:center;
+  
+  
+}
+
+.box{ 
+        width: 250px; 
+        height: 120px; 
+        margin:60px auto;
+        vertical-align:middle;
+        display:inline-block;
+        overflow: hidden; 
+        position: relative;
+        text-align:center;
+
+      }
+
+@keyframes color-animation-txt {
+    0% {
+       text-shadow:  #FF00FF 2px 2px,  #FF00FF -2px 2px,   #FF00FF -2px -2px,  #FF00FF 2px -2px;
+    }
+    50% {
+       text-shadow:  #ADFF2F 2px 2px,  #ADFF2F -2px 2px,   #ADFF2F -2px -2px,  #ADFF2F 2px -2px;
+    } 
+    100% {
+       text-shadow:  #FF00FF 2px 2px,  #FF00FF -2px 2px,   #FF00FF -2px -2px,  #FF00FF 2px -2px;
+    } 
+ }
+
+.block-txt
+  {
+
+   animation: color-animation-txt 1s infinite linear alternate;
+}
+
+
+.block-hand  {
+
+   animation: color-animation-hand 1s infinite linear alternate;
+}
+
+
+
+@keyframes color-animation-hand {
+    0% {
+       color: #ADFF2F;
+    }
+    50% {
+       color: #FF00FF;
+    } 
+    100% {
+       color: #ADFF2F;
+    } 
+ }
+
+.block-hand {
+
+   animation: color-animation-hand 1s infinite linear alternate;
+}
+h1, h2 { 
+
+  display: inline; }
+
+/*div.hey {
+  vertical-align: center;
+}*/
+
+h1 {
+  font-size: 120px;
+ text-shadow:  #FF00FF 2px 2px,  #FF00FF -2px 2px,   #FF00FF -2px -2px,  #FF00FF 2px -2px;
+font-family: "Shamalow", Helvetica, Arial, sans-serif;
+/*text-shadow:  #ADFF2F 1px 1px,  #ADFF2F -1px 1px,   #ADFF2F -1px -1px,  #ADFF2F 1px -1px;*/
+}
+
+
+h2 {
+  font-size: 50px;
+
+}
+
+
+h2.emohead {
+  color:    #ADFF2F;
+
+}
+
+h2.emohand {
+
+}
+h2.emoglass {
+  color:    #f2f2f2;
+}
+h2.emosmile {
+  color:    #f2f2f2;
+}
+
+hr {
+  height: 300px; 
+  margin:0 auto;
+  color: #000000;
+   border:0 none;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p>It's fun.</p>
+<div id="listemenu">
+<h2 class="box, emohand, block-hand">&#9758;</h2><h2 class="box, emoglass"> ͡⎚</h2><h2 class="box, emosmile">◡ </h2><h2 class="box, emoglass">͡͡⎚</h2><h2 class="box, emohand, block-hand">&#9758; &nbsp; &nbsp;</h2><h1 class="box, block-txt">Hey ! </h1><h2 class="box, emohand, block-hand">  &#9756;</h2><h2 class="box, emoglass"> ͡⎚</h2><h2 class="box, emosmile">◡ </h2><h2 class="box, emoglass">͡͡⎚</h2><h2 class="box, emohand, block-hand">&#9756; </h2>
+<hr/>
+
+<div id="listemenu">
+
+
+<div style="overflow-x:auto;">
+</div>
+  <table>
+    <tr>
+      <th>First Nameéééééàç</th>
+      <th>Last Name</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
 
 </body>
 </html>
